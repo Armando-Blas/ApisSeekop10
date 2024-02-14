@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.sicopweb</groupId>
+    <artifactId>ApisSeekop10</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <description>jar que se encarga de hacer el llamado a la Api de idiomas para obtener la traduccion del idioma
+    </description>
+
+    <developers>
+        <developer>
+            <name>Jose Armando Blas Arce</name>
+            <email>joseblas@seekop.com</email>
+            <organization>Seekop</organization>
+            <organizationUrl>http://seekop10.net</organizationUrl>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <distributionManagement>
+
+    </distributionManagement>
+
+
+    <url>https://maven.apache.org</url>
+
+    <dependencies>
+        <!-- Dependencia de JPA -->
+
+        <dependency>
+            <groupId>com.seekop</groupId>
+            <artifactId>ApiServiceV10</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20231013</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
