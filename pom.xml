@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.sicopweb</groupId>
-    <artifactId>ApisSeekop10</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>apisseekop10</artifactId>
+    <version>2</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -33,7 +33,11 @@
         </license>
     </licenses>
     <distributionManagement>
-
+        <repository>
+            <id>github</id>
+            <name>MensajesApi</name>
+            <url>https://maven.pkg.github.com/Armando-Blas/ApisSeekop10</url>
+        </repository>
     </distributionManagement>
 
 
